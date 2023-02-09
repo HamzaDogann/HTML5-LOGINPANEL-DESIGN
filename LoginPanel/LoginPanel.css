@@ -1,0 +1,127 @@
+
+.box1{
+    box-shadow: 2px 2px 4px rgb(53, 53, 53);
+    margin-top: 100px;
+    margin-left: 40%;
+    width: 330px;
+    height: 500px;
+    background-image: linear-gradient(to top,rgb(51, 120, 155),rgb(118, 118, 118));
+    border:2px solid;
+    border-color:rgb(116, 116, 116);
+    border-radius: 10px;
+    transition:0.3s;
+}
+.box1:hover{
+    
+    transition-delay: 0.3s;
+    border-radius: 15px 20px;
+}
+.yourlogo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(232, 235, 237);
+    text-align: center;
+    margin-left: 98px;
+    margin-top: 20px;
+    background-color: transparent;
+    text-shadow: 1px 1px 2px black;
+    /* background-image = url(yourlocation/photo1.png */
+    width: 140px;
+    height: 140px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: rgb(242, 241, 241);
+    
+}
+.panel{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-left: 46px;
+}
+
+#email{
+    display: inline-block;
+    height: 30px;
+    width: 250px;
+    margin-bottom: 70px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 4px;
+    border: solid 0px;
+    border-color: rgb(73, 73, 73);
+    transition: 0.4s;
+    font-family:Arial;
+    color: rgb(39, 39, 39);
+   
+    
+    
+    
+}
+#text{
+
+    display: inline-block;
+    height: 30px;
+    width: 250px;
+    margin-bottom: 70px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 4px;
+    border: solid 0px;
+    border-color: rgb(73, 73, 73);
+    transition: 0.4s;
+    
+    color:rgb(67, 67, 67) ;
+}
+#email:hover{
+    
+   
+    box-shadow: 2px 2px 6px rgb(255, 255, 255);
+}
+#text:hover{
+    
+   
+    box-shadow: 2px 2px 6px rgb(255, 255, 255);
+}
+#text:focus{
+    font-size: 17px;
+    color: rgb(75, 75, 75);
+
+}
+#email:focus{
+    font-size: 17px;
+    color: rgb(75, 75, 75);
+}
+.coolbutton{
+    margin-top: -5px;
+    margin-left: 40px;
+}
+.coolbutton button{
+    width: 160px;
+    height: 40px;
+    display: inline-block;
+    background-image: linear-gradient(to right,rgb(222, 222, 222),rgb(226, 226, 226));
+    border:2px solid rgb(79, 79, 79);
+    border-radius: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    transition:0.6s;
+    color: rgb(82, 82, 82);
+    transition:1s;
+
+}
+.coolbutton button:hover{
+
+    background-image: linear-gradient(to right,rgb(51, 120, 155),rgb(0, 151, 210));
+    border-radius: 8px;
+    cursor: pointer;
+    transition-delay: 0.2s;
+    color: aliceblue;
+    border:1px rgb(82, 82, 82) solid;
+    font-size: 21px;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+
+}
+
+
+
