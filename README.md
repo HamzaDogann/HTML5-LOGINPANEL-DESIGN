@@ -3,5 +3,3 @@
 
 /TR/ Merhabalar sizler için giriş paneli tasarımı yaptım dilediğiniz gibi kullanabilirsiniz. renklendirme ve boyutlandırmayı değiştirip projelerinizde kullanabilirsiniz.
 
-
-This Project = https://im4.ezgif.com/tmp/ezgif-4-2b469f0cbd.gif
